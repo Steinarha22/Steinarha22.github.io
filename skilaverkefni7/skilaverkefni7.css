@@ -1,0 +1,132 @@
+@font-face {
+    font-family: nvidia;
+    src: url(GeforceBold.ttf);
+}
+
+
+
+body{
+    background-color: black;
+}
+img, picture{
+    max-width: 100%;
+    height: auto;
+}
+
+.green{
+    color: greenyellow;
+height: 24%
+;
+font-size: 50px;
+font-family: nvidia;
+
+}
+
+.text{
+    color: white;
+    height: 24%;
+    font-size: 25px;
+    font-family: nvidia;
+}
+
+.text2{
+     color: white;
+     height: 5px;
+     font-size: 25px;
+     font-family: nvidia;
+}
+
+
+
+
+.color{
+    color: greenyellow;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+ 
+
+.tveir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 5px;
+}
+
+.þdalkar{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    
+}    
+
+.mynd{
+    min-height: auto;
+}
+
+
+
+
+
+.stærð{
+    font-size: 40px;
+}
+
+@media screen and (min-width: 37.5em){
+    .þdalkar{
+        display:grid;
+        grid-template-columns: 1fr  ;
+        grid-gap: 10px;
+        
+    }    
+}
+@media screen and (min-width: 60em){
+    .þdalkar{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        
+    }   
+    
+
+
+    }
+
+    .hæð{
+        margin-top: 1400px;
+        color: greenyellow;
+        font-size: 50px;
+        font-family: nvidia;
+    }
+    .hæð2{
+        
+        font-size: 25px;
+        color: white;
+    }
+
+.imgH{
+    margin-top: 150px;
+}
+.nav_hægri{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+font-family: nvidia;
+  }
+  a:link {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:visited {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:active {
+    color: yellow;
+    background-color: transparent;
+ }
+ .font2{
+    color:orangered;
+ }
